@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f8f9fc;
+    color: #5a5c69;
+}
+
+/* Sidebar Biru */
+.sidebar {
+    width: 240px;
+    height: 100vh;
+    background: linear-gradient(180deg, #4e73df 10%, #224abe 100%);
+    color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 15px;
+    overflow-y: auto;
+}
+
+.sidebar h2 {
+    text-align: center;
+    padding: 22px 0;
+    font-size: 17px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.85);
+    padding: 14px 10px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    transition: 0.2s;
+}
+
+.sidebar a i {
+    width: 25px;
+    font-size: 15px;
+    margin-right: 8px;
+}
+
+.sidebar a:hover {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+/* Sub-menu Data Master */
+.submenu {
+    background-color: #ffffff;
+    border-radius: 6px;
+    margin: 8px 0;
+    padding: 6px 0;
+}
+
+.submenu a {
+    color: #3a3b45;
+    padding: 9px 15px;
+    font-size: 13px;
+    font-weight: 500;
+    border-bottom: none;
+}
+
+.submenu a:hover {
+    background-color: #eaecf4;
+    color: #4e73df;
+}
+
+/* Header Putih di Bagian Atas */
+.topbar {
+    background-color: #ffffff;
+    height: 65px;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    margin-bottom: 25px;
+}
+
+.topbar .brand-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #858796;
+}
+
+.topbar .user-info {
+    font-size: 14px;
+    color: #5a5c69;
+}
+
+/* Konten Utama */
+.main-content {
+    margin-left: 240px;
+    padding-bottom: 30px;
+}
+
+.container-isi {
+    padding: 0 30px;
+}
+
+.container-isi h1 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #5a5c69;
+    margin-bottom: 5px;
+}
+
+.container-isi h2 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #4e73df;
+}
+
+.container-isi p {
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+/* Tombol Tambah Data */
+button {
+    background-color: #4e73df;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+button:hover {
+    background-color: #2e59d9;
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #e3e6f0;
+    font-size: 14px;
+}
+
+th {
+    background-color: #4e73df;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f8f9fc;
+}
